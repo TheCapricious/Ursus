@@ -149,7 +149,6 @@ color: #ffe030;
 }
 
 #chat .from, 
-#chat .user-mode:before,
 #chat .sidebar, 
 #windows .header {
 	border-color: #51feff;
@@ -243,12 +242,16 @@ color: #ffe030;
 
 #chat .unread-marker {
 	opacity: 1;
-	border-color: #ffe030;
 	border-size: 1px;
 }
 
+#chat .unread-marker:before{
+	border-color: #ffe030 !important;
+}
+
 #chat .unread-marker-text:before {
-	background-color: rgba(44,93,101,.1);
+	background-color: #162e32;
+	color: #3efeff;
 }
 
 #chat .msg {
