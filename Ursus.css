@@ -160,7 +160,7 @@ color: #ffe030;
 
 #chat .user, 
 #chat .user:hover {
-	color: #ffe344;
+	color: #ccb326;
 }
  
 #chat.colored-nicks .user.color-1 { color: #4c430e; }
@@ -250,7 +250,7 @@ color: #ffe030;
 }
 
 #chat .unread-marker-text:before {
-	background-color: #162e32;
+	background-color: #282828;
 	color: #3efeff;
 }
 
@@ -306,6 +306,14 @@ color: #ffe030;
 #chat .msg.join .time,
 #chat .msg.join .from button {
 	color: #31cbcc !important;
+}
+
+#chat .quit .from:before {
+	color: #ccb326;
+}
+
+#chat .join .from:before {
+	color: #31cbcc;
 }
 
 #chat .time {
