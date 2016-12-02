@@ -92,6 +92,9 @@ body {
 	color: #ffe344;
 }
 
+select > option {
+   background: #3d3d3d;
+}
 
 #sidebar,
 #footer {
