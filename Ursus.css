@@ -30,73 +30,117 @@ BACKGROUND DERIVATIVE: #202020
 @import url(//fonts.googleapis.com/css?family=Ubuntu);
 
 body {
-		background: #282828;
-		color: #37757f;
-		font-family: Ubuntu, Verdana, "Open Sans", sans-serif;
+	background: #282828;
+	color: #37757f;
+	font-family: Ubuntu, Verdana, "Open Sans", sans-serif;
 }
 
 #main,
 #chat .sidebar,
 #windows .chan,
 #windows .window {
-		background: #282828;
+	background: #282828;
 }
 
 #windows .header .topic, 
 #windows #form .input,
 .messages .msg,
 .sidebar {
-		font-size: 13px;
+	font-size: 13px;
 }
 
 #settings,
 #sign-in,
 #connect .title {
-		color: #37757f;
+	color: #37757f;
 }
 
 #settings .opt,
 #sign-in .opt,
 #connect .opt {
-		color: #3efeff;
+	color: #3efeff;
+}
+
+#settings .opt:hover,
+#sign-in .opt:hover,
+#connect .opt:hover {
+	color: #a9a9a9;
 }
 
 #settings .input, 
 #sign-in .input, 
 #connect .input{
-		background: rgba(44,93,101,.1);
-		color: #3efeff;
+	background: #3d3d;
+	color: #3efeff;
+	border-color: #a9a9a9;
 }
+
+#settings .input:hover,
+#sign-in .input:hover,
+#connect .input:hover {
+	background: rgba(44,93,101,.1);
+}
+
+#settings .btn {
+	background: #3d3d3d;
+	border-color: #3d3d3d;
+	color: #a9a9a9;
+}
+
+#settings .btn:hover {
+	background: rgba(44,93,101,.1);
+	color: #ffe344;
+}
+
 
 #sidebar,
 #footer {
-		background: rgba(28,28,28,.2);
-		color: #ffe030;
+	background: rgba(28,28,28,.2);
+	color: #ffe030;
+}
+
+#footer .icon:hover {
+color: #3efeff;
 }
 
 #sidebar .chan {
-		background: rgba(55,117,127,.5);
-		color: #37757f;
+	background: rgba(55,117,127,.5);
+	color: #37757f;
+}
+
+#sidebar .chan:hover {
+color: #a9a9a9;
 }
 
 #sidebar .chan .name {
-		color: #3efeff;
+	color: #3efeff;
+}
+
+#sidebar .chan .name:hover{
+color: #ffe030;
 }
 
 #sidebar .chan .name:after {
 	background: rgba(55,117,127,0)
 }
 
+#sidebar .chan.lobby:before {
+	color: #ffe030;
+}
+
 #chat .search, 
 #chat .search::-webkit-input-placeholder,
 #chat .count {
-		background: rgba(28,28,28,.2);
-		color: #ffe030;
+	background: rgba(28,28,28,.2);
+	color: #ffe030;
+}
+
+#chat .user-mode:before {
+	border-color: rgba(44,93,101,.1);
 }
 
 #chat .from,
 #windows .header,
-#chat .user-mode:before,
 #chat .sidebar {
 	border-color: #51feff;
 }
@@ -161,7 +205,7 @@ body {
 
 #windows #form .input {
 	background-color: rgba(28,28,28,.1) !important;
-	border-color: #ffe344 !important;
+	border-color: rgba(28,28,28,0) !important;
 	color: #ffe030 !important;
 }
 
@@ -201,8 +245,7 @@ body {
 }
 
 #chat .unread-marker-text:before {
-	background-color: #2c5d65;
-
+	background-color: rgba(44,93,101,.1);
 }
 
 #chat .msg {
@@ -210,7 +253,7 @@ body {
 }
 
 #chat .message {
-	color: #31cbcc;
+	color: #a9a9a9;
 }
 
 #chat .self .time,
@@ -223,7 +266,7 @@ body {
 }
 
 #chat .self .text {
-	color: #ccb326;
+	color: #31cbcc;
 }
 
 #chat .channel .highlight {
@@ -277,3 +320,17 @@ body {
 #chat .toggle-content .body {
 	color: #3efeff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
