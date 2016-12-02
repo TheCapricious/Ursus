@@ -298,6 +298,8 @@ color: #ffe030;
 	color: #3efeff;
 }
 
+#chat .msg.part .time, 
+#chat .msg.part .from button,
 #chat .msg.quit .time,
 #chat .msg.quit .from button{
 	color: #ccb326 !important;
@@ -308,6 +310,7 @@ color: #ffe030;
 	color: #31cbcc !important;
 }
 
+#chat .part .from:before,
 #chat .quit .from:before {
 	color: #ccb326;
 }
