@@ -1,2 +1,2 @@
 # Ursus
-the Ursus theme for TheLounge
+The Ursus theme for [TheLounge](https://github.com/thelounge/lounge)
