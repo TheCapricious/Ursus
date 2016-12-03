@@ -81,6 +81,12 @@ body {
 	background: rgba(44,93,101,.1);
 }
 
+#settings .input::-webkit-input-placeholder, 
+#sign-in .input::-webkit-input-placeholder,
+#connect .input::-webkit-input-placeholder {
+	color: #a9a9a9;
+}
+
 #settings .btn {
 	background: #3d3d3d;
 	border-color: #3d3d3d;
@@ -156,6 +162,26 @@ color: #ffe030;
 
 #chat .user-mode {
 	color: #ffe030;
+}
+
+#chat .user-mode.owner {
+	color: #be0000;
+}
+
+#chat .user-mode.admin {
+	color: #3f3ffe;
+}
+
+#chat .user-mode.op {
+	color: #00bebe;
+}
+
+#chat .user-mode.half-op {
+	color: #3ffefe;
+}
+
+#chat .user-mode.voice {
+	color: #be00be;
 }
 
 #chat .user, 
