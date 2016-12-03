@@ -149,8 +149,8 @@ select > option {
 	border-color: rgba(44,93,101,.1);
 	border-bottom: 0px solid #282828;
 	border-top: 1px solid;
-	padding: 15px 0px 0px 5px;
-	margin: 10px;
+	padding: 10px 0px 0px 5px;
+	margin: 15px;
 }
 
 #chat .from, 
