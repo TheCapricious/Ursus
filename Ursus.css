@@ -47,6 +47,7 @@ body {
 .messages .msg,
 .sidebar {
 	font-size: 13px;
+	font-family: Ubuntu, Verdana, "Open Sans", sans-serif;
 }
 
 #settings,
@@ -99,7 +100,7 @@ body {
 }
 
 select > option {
-   background: #3d3d3d;
+	background: #3d3d3d;
 }
 
 #sidebar,
@@ -109,7 +110,7 @@ select > option {
 }
 
 #footer .icon:hover {
-color: #3efeff;
+	color: #3efeff;
 }
 
 #sidebar .chan {
@@ -118,7 +119,7 @@ color: #3efeff;
 }
 
 #sidebar .chan:hover {
-color: #a9a9a9;
+	color: #a9a9a9;
 }
 
 #sidebar .chan .name {
@@ -126,7 +127,7 @@ color: #a9a9a9;
 }
 
 #sidebar .chan .name:hover{
-color: #ffe030;
+	color: #ffe030;
 }
 
 #sidebar .chan .name:after {
@@ -146,12 +147,10 @@ color: #ffe030;
 
 #chat .user-mode:before {
 	border-color: rgba(44,93,101,.1);
-}
-
-#chat .from,
-#windows .header,
-#chat .sidebar {
-	border-color: #51feff;
+	border-bottom: 0px solid #282828;
+	border-top: 1px solid;
+	padding: 15px 0px 0px 5px;
+	margin: 10px;
 }
 
 #chat .from, 
@@ -257,9 +256,9 @@ color: #ffe030;
 #chat .show-more-button:hover {
 	color: #ffe030;
 }
-
-#chat .header {
-	color: #37757f;
+
+#chat .header {
+	color: #37757f;
 }
 
 #viewport .lt:after {
@@ -280,12 +279,20 @@ color: #ffe030;
 	color: #3efeff;
 }
 
+#chat .date-marker-text:before {
+	border-color: #2c5d65;
+}
+
+#chat .date-marker-text:before {
+	background: #282828;
+}
+
 #chat .msg {
 	color: #ffe344;
 }
 
 #chat .message {
-	color: #a9a9a9;
+	color: #bebebe;
 }
 
 #chat .self .time,
