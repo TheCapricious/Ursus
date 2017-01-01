@@ -283,8 +283,8 @@ select > option {
 	border-color: #2c5d65;
 }
 
-#chat .date-marker-text:before {
-	background: #282828;
+#chat .date-marker-text:before {
+	background: #282828;
 }
 
 #chat .msg {
@@ -371,16 +371,7 @@ select > option {
 	color: #3efeff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+#chat-container ::-webkit-input-placeholder {
+	color: #99a2b4;
+	opacity: .5;
+}
